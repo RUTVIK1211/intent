@@ -39,6 +39,48 @@ class FrontController extends CI_Controller {
 	{
 		load_user_view('services','employees_provident');
 	}
+
+	public function employeesstateInsuranceact()
+	{
+		load_user_view('services','employeesstateInsuranceact');
+	}
+	public function payrollservices()
+	{
+		load_user_view('services','payrollservices');
+	}
+	public function gujaratlabourwelfareactregulation()
+	{
+		load_user_view('services','gujaratlabourwelfareactregulation');
+	}
+	public function buildingandotherconstruction()
+	{
+		load_user_view('services','buildingandotherconstruction');
+	}
+	public function contractlabour()
+	{
+		load_user_view('services','contractlabour');
+	}
+	public function notificationupdates()
+	{
+		load_user_view('services','notificationupdates');
+	}
+	public function information()
+	{
+		load_user_view('information','information');
+	}
+	public function download()
+	{
+		load_user_view('download','download');
+	}
+	public function inquiry()
+	{
+		load_user_view('inquiry','inquiry');
+	}
+	public function contectus()
+	{
+		load_user_view('contectus','contectus');
+	}
+	
 }
 
 /* End of file Controllername.php */

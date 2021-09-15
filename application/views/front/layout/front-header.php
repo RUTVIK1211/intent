@@ -45,21 +45,21 @@
 									href="employees-provident-funds-and-miscellaneous-provisions-act">Employees'
 									Provident
 									Funds and Miscellaneous Provisions Act, 1952</a></li>
-							<li><a class="nav-link scrollto" href="employeesstateInsuranceact.html"> Employees' State
+							<li><a class="nav-link scrollto" href="employees-state-insuranceact"> Employees' State
 									Insurance Act, 1948</a></li>
-							<li><a class="nav-link scrollto" href="payrollservices.html">Payroll Services</a></li>
-							<li><a class="nav-link scrollto" href="gujaratlabourwelfareactregulation.html">Gujarat
+							<li><a class="nav-link scrollto" href="payrollservices">Payroll Services</a></li>
+							<li><a class="nav-link scrollto" href="gujarat-labour-welfare-act-regulation">Gujarat
 									Labour Welfare Act Regulation</a></li>
-							<li><a class="nav-link scrollto" href="buildingandotherconstruction.html">Building and Other
+							<li><a class="nav-link scrollto" href="building-and-other-construction">Building and Other
 									Construction Workers Act, 1996</a></li>
-							<li><a class="nav-link scrollto" href="contractlabour.html">Contract Labour (Regulation &
+							<li><a class="nav-link scrollto" href="contractlabour">Contract Labour (Regulation &
 									Abolition) Act, 1970</a></li>
 						</ul>
-					<li><a class="nav-link scrollto " href="notification&updates.html">Notifications & Updates</a></li>
-					<li><a class="nav-link scrollto" href="information.html">Information</a></li>
-					<li><a class="nav-link scrollto" href="download.html">Downloads</a></li>
-					<li><a class="nav-link scrollto" href="inquiry.html">Inquiry</a></li>
-					<li><a class="nav-link scrollto" href="contectus.html">Contact Us</a></li>
+					<li><a class="nav-link scrollto " href="notification-updates">Notifications & Updates</a></li>
+					<li><a class="nav-link scrollto" href="information">Information</a></li>
+					<li><a class="nav-link scrollto" href="download">Downloads</a></li>
+					<li><a class="nav-link scrollto" href="inquiry">Inquiry</a></li>
+					<li><a class="nav-link scrollto" href="contect-us">Contact Us</a></li>
 					<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav>
 			<!-- .navbar -->

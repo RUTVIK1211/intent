@@ -22,13 +22,13 @@
   				<div class="col-lg-3 col-md-6 footer-links">
   					<h4>Useful Links</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="about.html">About us</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="services.html">Services</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="notification&updates.html">Notification &
+  						<li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('/')?>">Home</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="about-us">About us</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="consultation-audit">Services</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="notification-updates">Notification &
   								Updates</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="information.html">Information</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="download.html">Download</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="information">Information</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="download">Download</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
   					</ul>
   				</div>
@@ -36,23 +36,23 @@
   				<div class="col-lg-3 col-md-6 footer-links">
   					<h4>Our Services</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="consultation&audit.html">Consulting, Advisory
+  						<li><i class="bx bx-chevron-right"></i> <a href="consultation-audit">Consulting, Advisory
   								& Counselling Area</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="thefactoriesact1948.html">The Factories Act,
+  						<li><i class="bx bx-chevron-right"></i> <a href="thefactoriesact1948">The Factories Act,
   								1948</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a
-  								href="employeesrovidentfundsandmiscellaneousprovisionsact.html">Employees' Provident
+  								href="employees-provident-funds-and-miscellaneous-provisions-act">Employees' Provident
   								Funds and Miscellaneous Provisions Act, 1952</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="employeesstateInsuranceact.html">Employees'
+  						<li><i class="bx bx-chevron-right"></i> <a href="employees-state-insuranceact">Employees'
   								State Insurance Act, 1948</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="payrollservices.html">Payroll Services</a>
+  						<li><i class="bx bx-chevron-right"></i> <a href="payrollservices">Payroll Services</a>
   						</li>
   						<li><i class="bx bx-chevron-right"></i> <a
-  								href="gujaratlabourwelfareactregulation.html">Gujarat Labour Welfare Act
+  								href="gujarat-labour-welfare-act-regulation">Gujarat Labour Welfare Act
   								Regulation</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="buildingandotherconstruction.html">Building
+  						<li><i class="bx bx-chevron-right"></i> <a href="building-and-other-construction">Building
   								and Other Construction Workers Act, 1996</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a href="contractlabour.html">Contract Labour
+  						<li><i class="bx bx-chevron-right"></i> <a href="contractlabour">Contract Labour
   								(Regulation & Abolition) Act, 1970</a></li>
   					</ul>
   				</div>
