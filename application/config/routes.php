@@ -71,3 +71,12 @@ $route['information']='FrontController/information';
 $route['download']='FrontController/download';
 $route['inquiry']='FrontController/inquiry';
 $route['contect-us']='FrontController/contectus';
+
+
+// admin routes	
+$route['admin'] = 'LoginController/index';
+$route['dashboard'] = 'LoginController/dashboard';
+$route['upload-document'] = 'FileController/index';
+$route['doc-upload'] = 'FileController/doc_upload';
+$route['list-document'] = 'FileController/list_document';
+$route['get-doc-list'] = 'FileController/list_document_datatable';

@@ -62,7 +62,9 @@ class FrontController extends CI_Controller {
 	}
 	public function notificationupdates()
 	{
-		load_user_view('services','notificationupdates');
+		$data['documents'] = $this->Common_model->get_notification();
+		// dd($data);
+		load_user_view('services', 'notificationupdates', $data);
 	}
 	public function information()
 	{
@@ -70,7 +72,8 @@ class FrontController extends CI_Controller {
 	}
 	public function download()
 	{
-		load_user_view('download','download');
+		$data['documents'] = $this->Common_model->get_downloads();
+		load_user_view('download', 'download', $data);
 	}
 	public function inquiry()
 	{

@@ -46,6 +46,17 @@ if (!function_exists('load_user_view')) {
 	}
 }
 
+if(!function_exists('load_login_view'))
+{
+	function load_login_view($folder_name = "", $view_name = "", $data = "")
+	{
+	$CI = &get_instance();
+	$CI->load->view('admin/layout/front-headerlinks');
+	$CI->load->view('admin/layout/front-header');
+	$CI->load->view("admin/" .$folder_name . "/" . $view_name, $data);
+	$CI->load->view('admin/layout/front-footer');
+	}
+}
 
 if (!function_exists('show_errors')) {
 	function show_errors()

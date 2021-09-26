@@ -754,8 +754,8 @@ class SSP
         }
 
 
-        // echo $query;
-        // exit;
+		// echo $query;
+		// exit;
 
 
         $data = SSP::sql_exec($db, $bindings, $query);

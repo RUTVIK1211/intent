@@ -1,0 +1,151 @@
+Provision process started.
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-ruby.x86_64 0:2.4.10-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-ruby-irb.noarch 0:2.4.10-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-ruby-libs.x86_64 0:2.4.10-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-bigdecimal.x86_64 0:1.3.2-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-did_you_mean.x86_64 0:1.1.0-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-io-console.x86_64 0:0.4.6-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-json.x86_64 0:2.0.4-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-openssl.x86_64 0:2.0.9-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-psych.x86_64 0:2.2.2-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygem-rdoc.noarch 0:5.0.1-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-rubygems.noarch 0:2.6.14.4-19.22.3.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package ea-ruby24-runtime.x86_64 0:2.4.10-1.1.4.cpanel will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] ---> Package libyaml.x86_64 0:0.1.4-11.el7_0 will be installed
+[2021-04-09 17:22:05 +0530] info [xml-api] --> Finished Dependency Resolution
+[2021-04-09 17:22:05 +0530] info [xml-api] ================================================================================
+[2021-04-09 17:22:05 +0530] info [xml-api]  Package                         Arch    Version                    Repository
+[2021-04-09 17:22:05 +0530] info [xml-api]                                                                            Size
+[2021-04-09 17:22:05 +0530] info [xml-api] ================================================================================
+[2021-04-09 17:22:05 +0530] info [xml-api] Installing:
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-ruby                  x86_64  2.4.10-19.22.3.cpanel      EA4    35 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-ruby-irb              noarch  2.4.10-19.22.3.cpanel      EA4    52 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-ruby-libs             x86_64  2.4.10-19.22.3.cpanel      EA4   2.7 M
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-bigdecimal    x86_64  1.3.2-19.22.3.cpanel       EA4    46 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-did_you_mean  x86_64  1.1.0-19.22.3.cpanel       EA4    39 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-io-console    x86_64  0.4.6-19.22.3.cpanel       EA4    16 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-json          x86_64  2.0.4-19.22.3.cpanel       EA4    40 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-openssl       x86_64  2.0.9-19.22.3.cpanel       EA4   135 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-psych         x86_64  2.2.2-19.22.3.cpanel       EA4    45 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygem-rdoc          noarch  5.0.1-19.22.3.cpanel       EA4   412 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-rubygems              noarch  2.6.14.4-19.22.3.cpanel    EA4   252 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  ea-ruby24-runtime               x86_64  2.4.10-1.1.4.cpanel        EA4    26 k
+[2021-04-09 17:22:05 +0530] info [xml-api]  libyaml                         x86_64  0.1.4-11.el7_0             base   55 k
+[2021-04-09 17:22:05 +0530] info [xml-api] Transaction Summary
+[2021-04-09 17:22:05 +0530] info [xml-api] ================================================================================
+[2021-04-09 17:22:05 +0530] info [xml-api] Install  13 Packages
+[2021-04-09 17:22:05 +0530] info [xml-api] Total download size: 3.9 M
+[2021-04-09 17:22:05 +0530] info [xml-api] Installed size: 14 M
+[2021-04-09 17:22:05 +0530] info [xml-api] Downloading packages:
+[2021-04-09 17:22:05 +0530] info [xml-api] http://mirrors.piconets.webwerks.in/centos-mirror/7.9.2009/os/x86_64/Packages/libyaml-0.1.4-11.el7_0.x86_64.rpm: [Errno 14] HTTP Error 500 - Internal Server Error
+[2021-04-09 17:22:05 +0530] info [xml-api] Trying other mirror.
+[2021-04-09 17:22:05 +0530] info [xml-api] --------------------------------------------------------------------------------
+[2021-04-09 17:22:05 +0530] info [xml-api] Total                                              2.6 MB/s | 3.9 MB  00:01     
+[2021-04-09 17:22:05 +0530] info [xml-api] Running transaction check
+[2021-04-09 17:22:05 +0530] info [xml-api] Running transaction test
+[2021-04-09 17:22:05 +0530] info [xml-api] Transaction test succeeded
+[2021-04-09 17:22:05 +0530] info [xml-api] Running transaction
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-runtime-2.4.10-1.1.4.cpanel.x86_64                1/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-ruby-libs-2.4.10-19.22.3.cpanel.x86_64            2/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : libyaml-0.1.4-11.el7_0.x86_64                               3/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-ruby-irb-2.4.10-19.22.3.cpanel.noarch             4/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-json-2.0.4-19.22.3.cpanel.x86_64          5/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-openssl-2.0.9-19.22.3.cpanel.x86_64       6/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-io-console-0.4.6-19.22.3.cpanel.x86_64    7/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-rdoc-5.0.1-19.22.3.cpanel.noarch          8/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-bigdecimal-1.3.2-19.22.3.cpanel.x86_64    9/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-psych-2.2.2-19.22.3.cpanel.x86_64        10/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygems-2.6.14.4-19.22.3.cpanel.noarch          11/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-rubygem-did_you_mean-1.1.0-19.22.3.cpanel.x86_   12/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Installing : ea-ruby24-ruby-2.4.10-19.22.3.cpanel.x86_64                13/13Purging all relevant cached command results
+[2021-04-09 17:22:05 +0530] info [xml-api] Removing:  /root/.cpanel/datastore/_usr_sbin_httpd_-l
+[2021-04-09 17:22:05 +0530] info [xml-api] Removing:  /root/.cpanel/datastore/_usr_sbin_httpd_-v
+[2021-04-09 17:22:05 +0530] info [xml-api] Removing:  /root/.cpanel/datastore/_usr_sbin_httpd_-V
+[2021-04-09 17:22:05 +0530] info [xml-api] Rebuilding global cache
+[2021-04-09 17:22:05 +0530] info [xml-api] Building global cache for cpanel...Done
+[2021-04-09 17:22:05 +0530] info [xml-api] Ignoring current entry for “ea-php54” …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ignoring current entry for “ea-php55” …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php56” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php70” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php71” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php72” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php73” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php74” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Ensuring current entry for “ea-php80” is correct …
+[2021-04-09 17:22:05 +0530] info [xml-api] Built /etc/apache2/conf/httpd.conf OK
+[2021-04-09 17:22:05 +0530] info [xml-api] Nothing to do under ea4 (this script has been deprecated under ea4).
+[2021-04-09 17:22:05 +0530] info [xml-api] Fix mailman RPM directories …
+[2021-04-09 17:22:05 +0530] info [xml-api]  … PID 24910
+[2021-04-09 17:22:05 +0530] info [xml-api] Fix mailing list perms …
+[2021-04-09 17:22:05 +0530] info [xml-api]  … PID 24912
+[2021-04-09 17:22:05 +0530] info [xml-api] Aligning modsec config to Whostmgr
+[2021-04-09 17:22:05 +0530] info [xml-api] - Whostmgr version 11.94.0.4
+[2021-04-09 17:22:05 +0530] info [xml-api] - Whostmgr supports conf.d/modsec location
+[2021-04-09 17:22:05 +0530] info [xml-api] - No change necessary
+[2021-04-09 17:22:05 +0530] info [xml-api] Waiting for “httpd” to restart gracefully …waiting for “httpd” to initialize ………finished.
+[2021-04-09 17:22:05 +0530] info [xml-api] Service Status
+[2021-04-09 17:22:05 +0530] info [xml-api] 	httpd (/usr/sbin/httpd -k start) is running as root with PID 2013 (systemd+/proc check method).
+[2021-04-09 17:22:05 +0530] info [xml-api] Startup Log
+[2021-04-09 17:22:05 +0530] info [xml-api] 	Apr 09 15:15:01 server.packanddrop.com systemd[1]: Starting Apache web server managed by cPanel EasyApache...
+[2021-04-09 17:22:05 +0530] info [xml-api] 	Apr 09 15:15:16 server.packanddrop.com systemd[1]: Can't open PID file /run/apache2/httpd.pid (yet?) after start: No such file or directory
+[2021-04-09 17:22:05 +0530] info [xml-api] 	Apr 09 15:15:16 server.packanddrop.com systemd[1]: Started Apache web server managed by cPanel EasyApache.
+[2021-04-09 17:22:05 +0530] info [xml-api] Log Messages
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:12:29.619841 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.989000 2021] [:error] [pid 21258:tid 47956571309824] [client 45.155.205.211:49932] [client 45.155.205.211] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/RESPONSE-980-CORRELATION.conf"] [line "37"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 5 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): PHP Injection Attack: High-Risk PHP Function Name Found"] [tag "event-correlation"] [hostname "103.212.120.138"] [uri "/403.shtml"] [unique_id "YHA87sHwudyWb9E-1WvzvAAAAcs"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.950677 2021] [:error] [pid 21258:tid 47956556601088] [client 45.155.205.211:49932] [client 45.155.205.211] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "30"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 5)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "103.212.120.138"] [uri "/index.php"] [unique_id "YHA87sHwudyWb9E-1WvzvAAAAcs"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.950057 2021] [:error] [pid 21258:tid 47956556601088] [client 45.155.205.211:49932] [client 45.155.205.211] ModSecurity: Warning. Matched phrase "call_user_func" at ARGS:function. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "145"] [id "933150"] [rev "1"] [msg "PHP Injection Attack: High-Risk PHP Function Name Found"] [data "Matched Data: call_user_func found within ARGS:function: call_user_func_array"] [severity "CRITICAL"] [ver "OWASP_CRS/3.0.0"] [maturity "1"] [accuracy "9"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"] [hostname "103.212.120.138"] [uri "/index.php"] [unique_id "YHA87sHwudyWb9E-1WvzvAAAAcs"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.656808 2021] [:error] [pid 21258:tid 47956552398592] [client 45.155.205.211:44976] [client 45.155.205.211] ModSecurity: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/RESPONSE-980-CORRELATION.conf"] [line "37"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 7 - SQLI=0,XSS=0,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): Request Containing Content, but Missing Content-Type header"] [tag "event-correlation"] [hostname "103.212.120.138"] [uri "/403.shtml"] [unique_id "YHA87sHwudyWb9E-1WvzuwAAAdQ"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.641416 2021] [:error] [pid 21258:tid 47956575512320] [client 45.155.205.211:44976] [client 45.155.205.211] ModSecurity: Access denied with code 403 (phase 2). Operator GE matched 5 at TX:anomaly_score. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "30"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 7)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"] [hostname "103.212.120.138"] [uri "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"] [unique_id "YHA87sHwudyWb9E-1WvzuwAAAdQ"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.640900 2021] [:error] [pid 21258:tid 47956575512320] [client 45.155.205.211:44976] [client 45.155.205.211] ModSecurity: Warning. Operator EQ matched 0 at REQUEST_HEADERS. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "368"] [id "920340"] [rev "3"] [msg "Request Containing Content, but Missing Content-Type header"] [severity "NOTICE"] [ver "OWASP_CRS/3.0.0"] [maturity "9"] [accuracy "9"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [hostname "103.212.120.138"] [uri "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"] [unique_id "YHA87sHwudyWb9E-1WvzuwAAAdQ"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 17:09:26.640733 2021] [:error] [pid 21258:tid 47956575512320] [client 45.155.205.211:44976] [client 45.155.205.211] ModSecurity: Warning. Match of "rx ^0?$" against "REQUEST_HEADERS:Content-Length" required. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "143"] [id "920170"] [rev "1"] [msg "GET or HEAD Request with Body Content."] [data "19"] [severity "CRITICAL"] [ver "OWASP_CRS/3.0.0"] [maturity "9"] [accuracy "9"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/INVALID_HREQ"] [tag "CAPEC-272"] [hostname "103.212.120.138"] [uri "/vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php"] [unique_id "YHA87sHwudyWb9E-1WvzuwAAAdQ"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 16:55:39.959613 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 16:54:47.783678 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 16:39:32.748584 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 16:31:09.440379 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 15:15:16.075586 2021] [mpm_event:notice] [pid 2013:tid 47956293891136] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 15:15:15.724342 2021] [:notice] [pid 1464:tid 47956293891136] ModSecurity for Apache/2.9.3 (http://www.modsecurity.org/) configured.
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 14:59:58.908524 2021] [:error] [pid 30889:tid 47136107935488] [client 167.99.182.8:52808] [client 167.99.182.8] ModSecurity: Warning. Operator EQ matched 0 at REQUEST_HEADERS. [file "/etc/apache2/conf.d/modsec_vendor_configs/OWASP3/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "303"] [id "920280"] [rev "2"] [msg "Request Missing a Host Header"] [severity "WARNING"] [ver "OWASP_CRS/3.0.0"] [maturity "9"] [accuracy "9"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/MISSING_HEADER_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"] [hostname "server.packanddrop.com"] [uri "/"] [unique_id "YHAeluTwCEObkGIwGG3LnAAAAMY"]
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 12:55:47.884363 2021] [mpm_event:notice] [pid 1385:tid 47135855731776] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] 	[Fri Apr 09 12:53:40.666553 2021] [mpm_event:notice] [pid 1385:tid 47135855731776] AH00489: Apache/2.4.46 (cPanel) OpenSSL/1.1.1k mod_bwlimited/1.4 configured -- resuming normal operations
+[2021-04-09 17:22:05 +0530] info [xml-api] httpd restarted successfully.
+[2021-04-09 17:22:05 +0530] info [xml-api] Setting /home permissions to 0711 … 
+[2021-04-09 17:22:05 +0530] info [xml-api] Setting permissions for users …
+[2021-04-09 17:22:05 +0530] info [xml-api] paras …
+[2021-04-09 17:22:05 +0530] info [xml-api] … Done
+[2021-04-09 17:22:05 +0530] info [xml-api]  
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-runtime-2.4.10-1.1.4.cpanel.x86_64                1/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : libyaml-0.1.4-11.el7_0.x86_64                               2/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-json-2.0.4-19.22.3.cpanel.x86_64          3/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-ruby-libs-2.4.10-19.22.3.cpanel.x86_64            4/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-openssl-2.0.9-19.22.3.cpanel.x86_64       5/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-ruby-2.4.10-19.22.3.cpanel.x86_64                 6/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-io-console-0.4.6-19.22.3.cpanel.x86_64    7/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-rdoc-5.0.1-19.22.3.cpanel.noarch          8/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-ruby-irb-2.4.10-19.22.3.cpanel.noarch             9/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-bigdecimal-1.3.2-19.22.3.cpanel.x86_64   10/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygems-2.6.14.4-19.22.3.cpanel.noarch          11/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-psych-2.2.2-19.22.3.cpanel.x86_64        12/13 
+[2021-04-09 17:22:05 +0530] info [xml-api]   Verifying  : ea-ruby24-rubygem-did_you_mean-1.1.0-19.22.3.cpanel.x86_   13/13 
+[2021-04-09 17:22:05 +0530] info [xml-api] Installed:
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-ruby.x86_64 0:2.4.10-19.22.3.cpanel                                 
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-ruby-irb.noarch 0:2.4.10-19.22.3.cpanel                             
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-ruby-libs.x86_64 0:2.4.10-19.22.3.cpanel                            
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-bigdecimal.x86_64 0:1.3.2-19.22.3.cpanel                    
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-did_you_mean.x86_64 0:1.1.0-19.22.3.cpanel                  
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-io-console.x86_64 0:0.4.6-19.22.3.cpanel                    
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-json.x86_64 0:2.0.4-19.22.3.cpanel                          
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-openssl.x86_64 0:2.0.9-19.22.3.cpanel                       
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-psych.x86_64 0:2.2.2-19.22.3.cpanel                         
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygem-rdoc.noarch 0:5.0.1-19.22.3.cpanel                          
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-rubygems.noarch 0:2.6.14.4-19.22.3.cpanel                           
+[2021-04-09 17:22:05 +0530] info [xml-api]   ea-ruby24-runtime.x86_64 0:2.4.10-1.1.4.cpanel                                
+[2021-04-09 17:22:05 +0530] info [xml-api]   libyaml.x86_64 0:0.1.4-11.el7_0                                               
+[2021-04-09 17:22:05 +0530] info [xml-api] Finished Transaction
+[2021-04-09 17:22:05 +0530] info [xml-api] Leaving Shell
+
+-- error(24769) --
+http://mirrors.piconets.webwerks.in/centos-mirror/7.9.2009/os/x86_64/Packages/libyaml-0.1.4-11.el7_0.x86_64.rpm: [Errno 14] HTTP Error 500 - Internal Server Error
+The entire output was logged to: /usr/local/cpanel/logs/packman/errors/2021-04-09_17:22:05-1
+-- /error(24769) --
+
+Provision process finished.
