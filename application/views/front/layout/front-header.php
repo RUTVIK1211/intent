@@ -25,6 +25,15 @@ $page = basename($currentUrl);
 	<header id="header" class="d-flex align-items-center">
 		<div class="container d-flex align-items-center justify-content-between">
 
+			<div id="result_message" style="display: none;"></div>
+			<div id="result_error_message" style="display: none;"></div>
+			<?php if ($this->session->flashdata('message')) { ?>
+				<div id="result" style="display: none;"></div>
+			<?php } else if ($this->session->flashdata('error')) { ?>
+				<div id="result_error" style="display: none;"></div>
+			<?php } else {
+			} ?>
+
 			<h1 class="logo"><a href=""><span><img src="assets/img/main_logo.png" alt=""> </span></a></h1>
 			<!-- Uncomment below if you prefer to use an image logo -->
 			<a href="<?= base_url('/') ?>" class="logo"></a>

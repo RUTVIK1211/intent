@@ -1396,3 +1396,33 @@ $("#document_list_table").DataTable({
     }]
 
 });
+$("#inquery_list_table").DataTable({
+    "serverSide": true,
+    "pageLength": 100,
+    "lengthMenu": [
+        [100, 500, 1000, -1],
+        [100, 500, 1000, "All"]
+    ],
+    "ajax": {
+        "url": hiddenURL + 'get-query-list',
+    },
+    "language": {
+        "infoFiltered": "",
+    },
+    "columnDefs": [{
+        "url": ""
+    }],
+
+    dom: 'lBfrtip',
+    buttons: [{
+        extend: 'csv',
+        filename: 'User Data List',
+        text: 'Export',
+        className: 'btn btn-primary export_excel_data',
+        exportOptions: {
+            columns: [1, 2, 3, 4, 5]
+        },
+
+    }]
+
+});

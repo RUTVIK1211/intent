@@ -83,6 +83,35 @@ class FrontController extends CI_Controller {
 	{
 		load_user_view('contectus','contectus');
 	}
+
+	public function submit_inquiry()
+	{
+
+
+		$data = [
+			'fname' => $this->input->post('fname'),
+			'lname' => $this->input->post('lname'),
+			'email' => $this->input->post('email'),
+			'phone' => $this->input->post('phone_no'),
+			'companyname' => $this->input->post('company_name_'),
+			'subject' => $this->input->post('subject'),
+			'address_1' => $this->input->post('address_1'),
+			'address_2' => $this->input->post('address_2'),
+			'city' =>  $this->input->post('city'),
+			'state'	=> $this->input->post('state'),
+			'zipcode' => $this->input->post('zipcode'),
+			'country' => $this->input->post('country'),
+			'message' => $this->input->post('message'),
+		];
+
+		$status = $this->Common_model->insert($data, 'inquirymaster');
+		if ($status) {
+			$this->session->set_flashdata('message', 'Thanks you we will contact you soon');
+		} else {
+			$this->session->set_flashdata('error', 'Something went wrong');
+		}
+		redirect('inquiry');
+	}
 	
 }
 

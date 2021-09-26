@@ -23181,3 +23181,38 @@ a .h_head:hover {
 /*# sourceMappingURL=style.css.map */
 
 /* custom css 08_02 */
+#result_error,
+#result_error_message {
+    position: fixed;
+    top: 88px;
+    width: 30%;
+    right: 0px;
+    height: auto;
+    z-index: 105;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #d9534f;
+}
+
+#result,
+#result_message {
+    position: fixed;
+    top: 88px;
+    width: 30%;
+    right: 0px;
+    height: auto;
+    z-index: 105;
+    text-align: center;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #7fd07ff2;
+}

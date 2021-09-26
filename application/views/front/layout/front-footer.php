@@ -22,7 +22,7 @@
   				<div class="col-lg-3 col-md-6 footer-links">
   					<h4>Useful Links</h4>
   					<ul>
-  						<li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('/')?>">Home</a></li>
+  						<li><i class="bx bx-chevron-right"></i> <a href="<?= base_url('/') ?>">Home</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="about-us">About us</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="consultation-audit">Services</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="notification-updates">Notification &
@@ -40,15 +40,13 @@
   								& Counselling Area</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="thefactoriesact1948">The Factories Act,
   								1948</a></li>
-  						<li><i class="bx bx-chevron-right"></i> <a
-  								href="employees-provident-funds-and-miscellaneous-provisions-act">Employees' Provident
+  						<li><i class="bx bx-chevron-right"></i> <a href="employees-provident-funds-and-miscellaneous-provisions-act">Employees' Provident
   								Funds and Miscellaneous Provisions Act, 1952</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="employees-state-insuranceact">Employees'
   								State Insurance Act, 1948</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="payrollservices">Payroll Services</a>
   						</li>
-  						<li><i class="bx bx-chevron-right"></i> <a
-  								href="gujarat-labour-welfare-act-regulation">Gujarat Labour Welfare Act
+  						<li><i class="bx bx-chevron-right"></i> <a href="gujarat-labour-welfare-act-regulation">Gujarat Labour Welfare Act
   								Regulation</a></li>
   						<li><i class="bx bx-chevron-right"></i> <a href="building-and-other-construction">Building
   								and Other Construction Workers Act, 1996</a></li>
@@ -61,11 +59,9 @@
   					<h4>Our Social Networks</h4>
   					<!-- <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p> -->
   					<div class="social-links mt-3">
-  						<a href="https://www.facebook.com/IntactConsultancyServices" class="facebook"><i
-  								class="bx bxl-facebook"></i></a>
+  						<a href="https://www.facebook.com/IntactConsultancyServices" class="facebook"><i class="bx bxl-facebook"></i></a>
   						<a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-  						<a href="https://www.linkedin.com/company/intact-consultancy-services/" class="linkedin"><i
-  								class="bx bxl-linkedin"></i></a>
+  						<a href="https://www.linkedin.com/company/intact-consultancy-services/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
   					</div>
   				</div>
 
@@ -85,8 +81,7 @@
   <!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-  		class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="<?php echo base_url(); ?>/assets/vendor/aos/aos.js"></script>
@@ -100,6 +95,22 @@
 
   <!-- Template Main JS File -->
   <script src="<?php echo base_url(); ?>/assets/js/main.js"></script>
+  <?php if ($this->session->flashdata('message')) { ?>
+  	<script type="text/javascript">
+  		$("#result").fadeIn("slow").append("<?php echo $this->session->flashdata('message'); ?>");
+  		setTimeout(function() {
+  			$("#result").fadeOut("slow");
+  		}, 4000);
+  	</script>
+  <?php }
+	if ($this->session->flashdata('error')) { ?>
+  	<script type="text/javascript">
+  		$("#result_error").fadeIn("slow").append("<?php echo $this->session->flashdata('error'); ?>");
+  		setTimeout(function() {
+  			$("#result_error").fadeOut("slow");
+  		}, 7000);
+  	</script>
+  <?php } ?>
 
   </body>
 

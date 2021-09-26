@@ -36,13 +36,19 @@ class LoginController extends CI_Controller
 				load_login_view('login', 'login');
 			}
 		} else {
-			redirect('dashboard-new');
+			redirect('dashboard');
 		}
 	}
 
 	public function dashboard()
 	{
 		load_admin_view('dashboard', 'dashboard');
+	}
+	public function logout()
+	{
+		session_start();
+		session_destroy();
+		redirect('admin');
 	}
 }
 

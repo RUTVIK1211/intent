@@ -70,13 +70,17 @@ $route['notification-updates']='FrontController/notificationupdates';
 $route['information']='FrontController/information';
 $route['download']='FrontController/download';
 $route['inquiry']='FrontController/inquiry';
+$route['submit-inquiry'] = 'FrontController/submit_inquiry';
 $route['contect-us']='FrontController/contectus';
 
 
 // admin routes	
 $route['admin'] = 'LoginController/index';
+$route['logout'] = 'LoginController/logout';
 $route['dashboard'] = 'LoginController/dashboard';
 $route['upload-document'] = 'FileController/index';
 $route['doc-upload'] = 'FileController/doc_upload';
 $route['list-document'] = 'FileController/list_document';
 $route['get-doc-list'] = 'FileController/list_document_datatable';
+$route['list-inqury'] = 'FileController/list_query';
+$route['get-query-list'] = 'FileController/list_query_datatable';

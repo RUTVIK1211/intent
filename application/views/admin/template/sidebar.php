@@ -24,12 +24,20 @@ $page = basename($currentUrl);
 							<span class="site-menu-title">Upload Document </span>
 						</a>
 					</li>
-					<li class="site-menu-item zoomin frame <?= $page == 'upload-document' ? 'active' : ''; ?>">
+					<li class="site-menu-item zoomin frame <?= $page == 'list-document' ? 'active' : ''; ?>">
 						<a class="animsition-link" href="<?= base_url('list-document') ?>">
 							<img src="<?= base_url('assets/images/sidebar/labels.svg'); ?>" class="site-menu-icon-side" alt="dashboard icon">
 							<!-- <i class="site-menu-icon icon fa-map-marker" aria-hidden="true"></i> -->
 							<div class="icon-title"></div>
 							<span class="site-menu-title">List Document </span>
+						</a>
+					</li>
+					<li class="site-menu-item zoomin frame <?= $page == 'list-inqury' ? 'active' : ''; ?>">
+						<a class="animsition-link" href="<?= base_url('list-inqury') ?>">
+							<img src="<?= base_url('assets/images/sidebar/customer.svg'); ?>" class="site-menu-icon-side" alt="dashboard icon">
+							<!-- <i class="site-menu-icon icon fa-map-marker" aria-hidden="true"></i> -->
+							<div class="icon-title"></div>
+							<span class="site-menu-title">List Inquiry </span>
 						</a>
 					</li>
 				</ul>

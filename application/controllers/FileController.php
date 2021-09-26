@@ -175,6 +175,63 @@ class FileController extends CI_Controller
 		}
 		redirect('list-document');
 	}
+
+	public function list_query()
+	{
+		load_admin_view('file', 'listquery');
+	}
+
+	public function list_query_datatable()
+	{
+		$columns = array();
+		$table = 'inquirymaster';
+		$primaryKey = 'id';
+		$where = "";
+		$joinQuery = '';
+
+		$columns[0] = array('db' => 'id', 'dt' => 0, 'field' => 'id');
+		$columns[1] = array('db' => 'fname', 'dt' => 1, 'field' => 'fname');
+		$columns[2] = array('db' => 'lname', 'dt' => 2, 'field' => 'name', 'formatter' => function ($d, $row) {
+			return $row[1] . " " . $row[2];
+		});
+		$columns[3] = array('db' => 'email', 'dt' => 3, 'field' => 'email');
+		$columns[4] = array('db' => 'phone', 'dt' => 4, 'field' => 'phone');
+		$columns[5] = array('db' => 'companyname', 'dt' => 5, 'field' => 'companyname');
+		$columns[6] = array('db' => 'subject', 'dt' => 6, 'field' => 'subject');
+		$columns[7] = array('db' => 'address_1', 'dt' => 7, 'field' => 'address_1');
+		$columns[8] = array('db' => 'address_2', 'dt' => 8, 'field' => 'address_2', 'formatter' => function ($d, $row) {
+			return $row[7] . " " . $row[8];
+		});
+		$columns[9] = array('db' => 'city', 'dt' => 9, 'field' => 'city');
+		$columns[10] = array('db' => 'state', 'dt' => 10, 'field' => 'state');
+		$columns[11] = array('db' => 'zipcode', 'dt' => 11, 'field' => 'zipcode');
+		$columns[12] = array('db' => 'country', 'dt' => 12, 'field' => 'country');
+		$columns[13] = array('db' => 'message', 'dt' => 13, 'field' => 'message');
+		$columns[14] = array('db' => 'id', 'dt' => 14, 'field' => 'id', 'formatter' => function ($d, $row) {
+			$action = "<a href='" . base_url('FileController/delete_query/' . $row[14]) . "'>
+                <button type='button'  class='btn btn-danger btn-sm ladda-button waves-effect waves-classic'>
+                Delete</button></a>";
+			return $action;
+		});
+
+
+		echo json_encode(
+			SSP::simple($_GET, $table, $primaryKey, $columns)
+		);
+	}
+
+
+	public function delete_query($id)
+	{
+		$id = $id;
+		$data = $this->Common_model->delete('inquirymaster', array('id' => $id));
+		if ($data) {
+			$this->session->set_flashdata('message', "Deleted successfully");
+		} else {
+			$this->sesion->set_flashdata('error', "Cant be deleted ");
+		}
+		redirect('list-inqury');
+	}
 }
 
 /* End of file FileController.php */
